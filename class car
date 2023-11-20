@@ -1,0 +1,32 @@
+#class Main
+public class Main {
+    public static void main(String[] args) {
+        car car1 = new car();
+        car1.name = "bmw";
+        car1.color = "black";
+        car1.speed =360;
+        car1.power =1000;
+        System.out.println(car1.name);
+        car1.start();
+    }
+}
+
+
+#class Car
+public class Car {
+    string name;
+    short speed;
+    short power;
+    string color;
+    void start () {
+        System.out.println("starting!");
+    }
+    void stop(){
+        System.out.println(name+"stopping!");
+    }
+
+    void changeGear (){
+        System.out.println(name + "changing gear!");
+    }
+
+}
