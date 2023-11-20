@@ -1,0 +1,37 @@
+#class main
+public class main {
+    public static void main(String[] args) {
+        mobile mobile1 = new mobile();
+        mobil1.companyName = "oppo";
+        mobil1.storage = 64;
+        mobil1.serialNum = 467245764 ;
+        mobil1.name ="oppo f9";
+        mobil1.dualSim ="yes";
+        mobil1.support4K ="not";
+        System.out.println(mobil1.name);
+        mobil1.call();
+        mobil1.sendMessage();
+        mobil1.playMedia();
+    }
+}
+
+
+# class Mobile
+public class Mobile {
+    string companyName;
+    short storage;
+    short serialNum;
+    string name;
+    string dualSim;
+    string support4K;
+    void call () {
+        System.out.println(name + "calling!");
+    }
+    void sendMessage(){
+        System.out.println(name + "sending message!");
+    }
+
+    void playMedia (){
+        System.out.println(name + "playing Media!");
+    }
+}
